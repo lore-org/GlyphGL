@@ -45,7 +45,7 @@
 
 /* Character encoding type flags */
 typedef enum {
-    GLYPH_EFFECT_NONE  = 0,        /* No special encoding */
+    GLYPH_ENCODING_NONE  = 0,        /* No special encoding */
     GLYPH_ENCODING_UTF8  = 0x010,    /* UTF-8 multi-byte character support */
     GLYPH_ENCODING_ASCII = 0x020,    /* Simple ASCII single-byte encoding */
 } glyph_encoding_type_t;
